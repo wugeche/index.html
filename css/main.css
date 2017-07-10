@@ -6,13 +6,13 @@ body {
 }
 
 
-main p {
+#main {
 box-shadow: inset 10px 3px 5px #3BB8E5;   
 -webkit-box-shadow: inset 10px 3px 5px #3BB8E5;
 -moz-box-shadow: inset 10px 3px 5px #3BB8E5;
  }
     
-       p {box-shadow: 10px 10px 5px 0px rgba(56,6,0,0.75);
+.other {box-shadow: 10px 10px 5px 0px rgba(56,6,0,0.75);
 -webkit-box-shadow: 10px 10px 5px 0px rgba(56,6,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(56,6,0,0.75);
        }
