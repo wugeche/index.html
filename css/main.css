@@ -6,9 +6,9 @@ body {
 
 
 #main {
-   -webkit-box-shadow: 14px 10px 15px 9px rgba(0,0,0,0.75);
--moz-box-shadow: 14px 10px 15px 9px rgba(0,0,0,0.75);
-box-shadow: 14px 10px 15px 9px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 6px rgba(54,6,0,0.4);
+   -webkit-box-shadow: 3px 3px 6px rgba(54,6,0,0.4);
+-moz-box-shadow: 3px 3px 6px rgba(54,6,0,0.4);
     
 }
 
