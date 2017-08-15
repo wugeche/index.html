@@ -21,8 +21,16 @@ body {
 }
 
 #menu a {
-   border-radius: 6px/10px ;
-      border-radius: 6px/5px; 
+  /* border-radius: 6px/10px ;
+      border-radius: 6px/5px; */
+    height: 15px;
+    border: 10 px dotted blue;
+ 
+ 
+width:160px;
+-moz-border-radius: 25px 10px / 10px 25px;
+border-radius: 25px 10px / 10px 25px;
+
 }
 
 #main > p {margin: 10px;
@@ -30,8 +38,9 @@ padding: 2px;}
 
 span {
     box-shadow: 2px 2px 3px 2px rgba(97,65,39,0.4);
-    -webkit-box-shadow: 2px 2px 3px 2px rgba(97,65,39,0.4);
-    -moz-box-shadow: 2px 2px 3px 2px rgba(97,65,39,0.4);
+  /*  -webkit-box-shadow: 2px 2px 3px 2px rgba(97,65,39,0.4);
+    -moz-box-shadow: 2px 2px 3px 2px rgba(97,65,39,0.4); 
+*/
 }
 
 
@@ -47,7 +56,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', end
 
 .other1 {
 	height: 250px;
-	background-image: url(images/220px-White_converse_heel.JPG);
+	background-image: url(../images/220px-White_converse_heel.JPG);
 	background-repeat: no-repeat;
     background-size: cover;
 }
@@ -64,4 +73,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', end
 i.first {
    display: inline-block;
     padding: 8px;
+}
+
+.external {
+    color: cyan;
+}
+.external::after {
+    content: url(/ConverseChuck/images/325px-Converse_logo.svg.png); padding: 5px;
+    
 }
