@@ -79,6 +79,6 @@ i.first {
     color: cyan;
 }
 .external::after {
-    content: url(/ConverseChuck/images/325px-Converse_logo.svg.png); padding: 5px;
+    content: url(); padding: 5px;
     
 }
