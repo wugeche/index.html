@@ -79,6 +79,6 @@ i.first {
     color: cyan;
 }
 .external::after {
-    content: url(); padding: 5px;
+    content: url(https://www.converse.com/us/en_us/pw/converse-chuck-taylor-2-shoes/pirZoi3Zpsc); padding: 5px;
     
 }
