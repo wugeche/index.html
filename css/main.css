@@ -82,3 +82,13 @@ i.first {
     content: url(https://www.converse.com/us/en_us/pw/converse-chuck-taylor-2-shoes/pirZoi3Zpsc); padding: 5px;
     
 }
+
+.floatleft {
+    float:left;
+    margin-right: 1.5em;
+}
+
+html,
+body {
+  height: 100%;
+}
