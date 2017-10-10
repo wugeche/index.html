@@ -4,6 +4,7 @@ body {
 	font-size: 120%;
 	border: 5px ridge brown;
 	padding: 6px;
+    width: 100%;
 }
 
 
@@ -27,7 +28,7 @@ body {
     border: 10 px dotted blue;
  
  
-width:160px;
+/*width:160px;*/
 -moz-border-radius: 25px 10px / 10px 25px;
 border-radius: 25px 10px / 10px 25px;
 
@@ -94,17 +95,17 @@ i.first {
     
 }
 #layer1 {
- position: relative; width:800px; top: 70px; left: 50px;
+ position: relative; width:100%; top: 70%; left: 50px;
     
 }
 #layer2 {
- position: relative; width:800px; top: 30px; left: 210px;
+ position: relative; width:100%; top: 30%; left: 210px;
    z-index: 1;     
     
 }
 
 #layer3 {
-   position: relative; width:800px; top: -20px; left: 380px;
+   position: relative; width:100%; top: -20%; left: 380px;
     z-index: 2; 
     
 }
