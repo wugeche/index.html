@@ -7,9 +7,43 @@ body {
     width: 100%;
 }
 
-media="all"
-@media only screen and (min-width:40em)
+ 
+@media only screen and (min-width:40em) {
 
+ /** #threeshoepic {
+    width:100%;
+  
+
+  #layer1 {
+     width:100%; }
+
+  #layer2 {
+  width:100%; }     
+
+
+  #layer3 {
+   width:100%;}
+
+**/
+  img {
+  min-width: 40%;
+  float:left;
+  padding: 2em;}
+
+h1 {
+  font-size: 3.5em;
+}
+
+  .floatleft {
+    min-width: 60%;
+  float:left;
+  margin-right: 2em;
+  padding: 2em;}
+
+  /** em {
+  font-family: serif; font-size:120%;}
+}
+ **/
 #main {
     box-shadow: 3px 3px 6px rgba(54,6,0,0.4);
    /*-webkit-box-shadow: 3px 3px 6px rgba(54,6,0,0.4);
@@ -88,12 +122,13 @@ i.first {
 
 .floatleft {
     float:left;
-    margin-right: 1.5em;
+    margin-right: 2em;
     z-index: 0; 
 }
 
 #threeshoepic {
     overflow: auto;
+    width:100%;
     
 }
 #layer1 {
@@ -107,7 +142,7 @@ i.first {
 }
 
 #layer3 {
-   position: relative; width:100%; top: -20%; left: 380px;
+   position: relative; width:100%; top: 20%; left: 380px;
     z-index: 2; 
     
 }
