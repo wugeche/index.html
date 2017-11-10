@@ -35,7 +35,7 @@ h1 {
 }
 
   .floatleft {
-    min-width: 60%;
+    min-width: 30%;
   float:left;
   margin-right: 2em;
   padding: 2em;}
@@ -44,6 +44,33 @@ h1 {
   font-family: serif; font-size:120%;}
 }
  **/
+
+---------------------------
+@-moz-viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+@-ms-viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+@-o-viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+@-webkit-viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+--------------------------
+
+
+
 #main {
     box-shadow: 3px 3px 6px rgba(54,6,0,0.4);
    /*-webkit-box-shadow: 3px 3px 6px rgba(54,6,0,0.4);
